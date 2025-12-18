@@ -1,0 +1,32 @@
+[
+  {
+    "productId": 2,
+    "name": "奶龙玩偶",
+    "category": "玩具",
+    "description": "可爱的奶龙玩偶",
+    "price": 50.0,
+    "images": [
+      "images/OIP.jpg"
+    ],
+    "sellerId": 1,
+    "comments": [
+      {
+        "userId": 1,
+        "nickname": "xipingo",
+        "text": "111"
+      }
+    ]
+  },
+  {
+    "productId": 3,
+    "name": "胖猫玩偶",
+    "category": "玩具",
+    "description": "可爱的胖猫玩偶",
+    "price": 50.0,
+    "images": [
+      "images/下载_2.jpg"
+    ],
+    "sellerId": 1,
+    "comments": []
+  }
+]

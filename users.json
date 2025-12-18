@@ -1,0 +1,24 @@
+[
+  {
+    "userId": 1,
+    "email": "111",
+    "phone": "111",
+    "password": "111",
+    "nickname": "xipingo",
+    "avatar": "images/下载.jpg",
+    "is_admin": false,
+    "favorites": [
+      2
+    ]
+  },
+  {
+    "userId": 2,
+    "email": "admin@example.com",
+    "phone": "",
+    "password": "admin",
+    "nickname": "Administrator",
+    "avatar": "",
+    "is_admin": true,
+    "favorites": []
+  }
+]
