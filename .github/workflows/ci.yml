@@ -1,4 +1,4 @@
-name: Python CI for Second-hand Platform
+name: Python CI for SoftwareEngineering
 
 on:
   push:
@@ -19,17 +19,12 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libjpeg-dev zlib1g-dev
-
-    - name: Install Python dependencies
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pillow
+        pip install pylint bandit
 
-    - name: Run unit tests (unittest)
+    - name: Run unit tests
       run: |
         python -m unittest discover -v
 
