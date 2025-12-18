@@ -1,0 +1,2 @@
+./afl-venv/bin/python
+fuzz_entry.py

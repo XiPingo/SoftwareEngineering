@@ -1,0 +1,7 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./afl-venv/bin/python
+AFL_CUSTOM_INFO_PROGRAM_ARGV=fuzz_entry.py
+AFL_CUSTOM_INFO_OUT=findings/default
+AFL_SKIP_BIN_CHECK=1
+# command line:
+'afl-fuzz' '-i' 'seeds' '-o' 'findings' '--' './afl-venv/bin/python' 'fuzz_entry.py'
